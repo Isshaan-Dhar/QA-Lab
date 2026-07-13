@@ -14,6 +14,7 @@ For anyone referencing this lab to replicate the testing methodology, the Auth0 
 * **Tenant Type:** Developer (Free Tier)
 * **Target Callback URI:** Routed to `https://jwt.io` to capture and inspect the JSON Web Tokens (JWT) upon successful authentication.
 * **MFA Configuration:** TOTP (Time-Based One-Time Password) and SMS enforced via global tenant policies.
+* **Twilio SMS Integration:** Because Auth0 requires an external provider for SMS delivery, we provisioned a Twilio Programmable SMS account. We integrated the Twilio API credentials into Auth0's custom SMS gateway, allowing us to successfully route, deliver, and validate text-based OTPs in real-time during the testing phase.
 
 ## Execution Deviations
 While Auth0 provided a robust testing ground, swapping the environment meant some standard lab procedures had to be modified:
