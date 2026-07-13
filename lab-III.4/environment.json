@@ -1,0 +1,25 @@
+{
+  "id": "e9a3f2b4-52d8-4a5d-b04f-1738c8c24f6c",
+  "name": "Instasafe Staging",
+  "values": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "auth_token",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "auth_token_expiry",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment"
+}

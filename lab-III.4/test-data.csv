@@ -1,0 +1,4 @@
+hostname,os,expected_status
+workstation-01,linux,201
+,windows,400
+laptop-02,invalid_os,400
