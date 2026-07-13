@@ -4,6 +4,10 @@
 * [Execution Summary Report](./execution-summary.pdf)
 * [Test Execution Matrix](./Test-Cases-Lab-III-2.xlsx)
 * [Online Excel](https://1drv.ms/x/c/98464f9de698be77/IQBf6UULLZ3sQrYW_FUIxJiYAdZHkNpfUIXXTbkmMWNBHB0?e=4CaaBJ)
+* Jira Bug Tracking:
+  * [IQLI2-1: Security Vulnerability: Gateway accepts expired TOTP codes](https://ishaandhar.atlassian.net/browse/IQLI2-1)
+  * [IQLI2-2: Access Control: Missing enforcement allows users with unverified emails to log in](https://ishaandhar.atlassian.net/browse/IQLI2-2)
+  * [IQLI2-3: Session Management: Gateway fails to restrict concurrent authenticated sessions](https://ishaandhar.atlassian.net/browse/IQLI2-3)
 
 ## Architectural Context
 The original parameters for this lab mandated the use of the InstaSafe internal environment to execute a standard Identity and Access Management (IAM) QA matrix. Due to environment unavailability and access constraints, a pivot was required to complete the testing cycle. 
